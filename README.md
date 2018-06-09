@@ -3,4 +3,4 @@ Android Projects made during Udacity Android Basics Nanodegree (Still adding new
 
 ## Projects
 
-1.Single Screen App(https://github.com/Yashsonisoni/Udacity-Android-Basics-Nanodegree/tree/master/Single%20Screen%20App)
+1.[Single Screen App](https://github.com/Yashsonisoni/Udacity-Android-Basics-Nanodegree/tree/master/Single%20Screen%20App)
