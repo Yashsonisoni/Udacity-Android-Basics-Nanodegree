@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Company name dimens -->
+    <dimen name="textSizeCompanyName">17sp</dimen>
+    <dimen name="companyNamePaddingLeft">9dp</dimen>
+    <dimen name="companyNamePaddingTop">20dp</dimen>
+    <dimen name="underlineForCompanyName">1dp</dimen>
+    <dimen name="underlineMarginRight">10dp</dimen>
+    <dimen name="underlineMarginLeft">10dp</dimen>
+
+    <!-- Logo dimens -->
+    <dimen name="logoPaddingBottom">30dp</dimen>
+    <dimen name="logoPaddingTop">30dp</dimen>
+    <dimen name="logoMarginTop">20dp</dimen>
+
+    <!-- Descripton dimens -->
+    <dimen name="textSizeDescription">12sp</dimen>
+    <dimen name="descriptionPaddingTop">30dp</dimen>
+    <dimen name="descriptionPaddingLeft">20dp</dimen>
+    <dimen name="descriptionPaddingRight">20dp</dimen>
+
+    <!-- Address dimens -->
+    <dimen name="addressPaddingTop">50dp</dimen>
+    <dimen name="addressMarginTop">22dp</dimen>
+    <dimen name="addressMarginLeft">22dp</dimen>
+    <dimen name="addressMarginRight">22dp</dimen>
+    <dimen name="addressPaddingLeft">9dp</dimen>
+
+    <!-- Website dimen -->
+    <dimen name="websiteMarginTop">22dp</dimen>
+    <dimen name="websiteMarginLeft">22dp</dimen>
+    <dimen name="websiteMarginRight">22dp</dimen>
+    <dimen name="websitePaddingLeft">9dp</dimen>
+    <dimen name="websitePaddingTop">10dp</dimen>
+
+    <!-- Default dimens -->
+    <dimen name="defaultTextSize">15sp</dimen>
+    <dimen name="tabIconsDefaultPadding">5dp</dimen>
+</resources>

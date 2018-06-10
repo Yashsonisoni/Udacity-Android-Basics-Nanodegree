@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="description">SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.</string>
+    <string name="address">SpaceX Headquarters,Los Angeles suburb of Hawthorne, California.</string>
+    <string name="company_name">Space Exploration Technologies Corp</string>
+    <string name="website">http://www.spacex.com</string>
+</resources>
