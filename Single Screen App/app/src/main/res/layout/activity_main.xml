@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround"
+    tools:context="singlescreenapp.app.com.singlescreenapp.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- Company Name -->
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name"
+            android:textColor="@color/textColor"
+            android:fontFamily="serif-monospace"
+            android:textSize="@dimen/textSizeCompanyName"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="@dimen/companyNamePaddingLeft"
+            android:paddingTop="@dimen/companyNamePaddingTop"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/underlineForCompanyName"
+            android:layout_above="@id/logo"
+            android:background="@color/textColor"
+            android:layout_marginRight="@dimen/underlineMarginRight"
+            android:layout_marginLeft="@dimen/underlineMarginLeft" />
+
+        <!-- Logo -->
+
+        <ImageView
+            android:contentDescription="@string/company_name"
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spacexlogo"
+            android:scaleType="centerCrop"
+            android:paddingBottom="@dimen/logoPaddingBottom"
+            android:paddingTop="@dimen/logoPaddingTop"
+            android:layout_below="@id/business_name"
+            android:layout_marginTop="@dimen/logoMarginTop" />
+
+        <!-- Description-->
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:paddingTop="@dimen/descriptionPaddingTop"
+            android:paddingLeft="@dimen/descriptionPaddingLeft"
+            android:paddingRight="@dimen/descriptionPaddingRight"
+            android:textColor="@color/textColor"
+            android:fontFamily="serif-monospace"
+            android:textSize="@dimen/textSizeDescription"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/logo"
+            />
+    </RelativeLayout>
+
+    <!-- Contacts like address and website below-->
+        <LinearLayout
+            android:paddingTop="@dimen/addressPaddingTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/addressMarginTop"
+            android:layout_marginLeft="@dimen/addressMarginLeft"
+            android:layout_marginRight="@dimen/addressMarginRight"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_name"
+                android:padding="@dimen/tabIconsDefaultPadding"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:autoLink="map"
+                android:textColor="@color/textColor"
+                android:fontFamily="serif-monospace"
+                android:textSize="@dimen/defaultTextSize"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/addressPaddingLeft" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/websiteMarginTop"
+        android:layout_marginLeft="@dimen/websiteMarginLeft"
+        android:layout_marginRight="@dimen/websiteMarginRight">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/web"
+            android:padding="@dimen/tabIconsDefaultPadding"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/website"
+            android:autoLink="web"
+            android:textColor="@color/textColor"
+            android:fontFamily="serif-monospace"
+            android:textSize="@dimen/defaultTextSize"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="@dimen/websitePaddingLeft"
+            android:paddingTop="@dimen/websitePaddingTop"/>
+    </LinearLayout>
+</LinearLayout>
+
